@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<project name="helloant" default="hello">
+	<property file="build.properties" />
+	<target name="hello">
+		<echo message="${my.message}" />
+	</target>
+</project>
